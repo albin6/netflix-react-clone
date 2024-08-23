@@ -1,0 +1,16 @@
+.nav-list {
+  list-style: none;
+  display: flex;
+}
+
+.nav-list > li {
+  text-decoration: none;
+  margin-left: 20px;
+  white-space: nowrap;
+  font-size: 14px;
+  color: #e5e5e5;
+}
+
+.nav-list > li:first-child {
+  font-weight: 500;
+}
