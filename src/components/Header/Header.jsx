@@ -1,6 +1,7 @@
 import "./Header.css";
 
 import NavList from "./NavList/NavList";
+import NavRight from "./NavRight/NavRight";
 import SVGComponent from "./Svg/SVGComponent";
 
 const Header = () => {
@@ -9,6 +10,7 @@ const Header = () => {
       <div className="header-inner">
         <SVGComponent className="logo" />
         <NavList />
+        <NavRight className="nav-right" />
       </div>
     </header>
   );

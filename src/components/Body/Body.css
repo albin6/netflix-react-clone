@@ -1,0 +1,44 @@
+.row-container {
+  
+  margin: 3vw 0;
+  position: relative;
+  top: -165px;
+  z-index: 1;
+}
+
+.row-container h2 {
+  font-size: 1.4vw;
+  margin: 0 60px;
+  color: white;
+}
+
+.slider-container {
+  transition: transform 0.54s cubic-bezier(0.5, 0, 0.1, 1) 0s;
+}
+
+.slider-pad {
+  padding: 0 60px;
+  z-index: 2;
+}
+
+.slider-mask {
+  display: flex;
+  overflow-x: auto;
+  gap: 15px;
+  scroll-behavior: smooth;
+}
+
+.slider-mask::-webkit-scrollbar {
+  display: none;
+}
+
+.card {
+  min-width: 200px;
+  height: 300px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  
+  flex-shrink: 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}

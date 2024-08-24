@@ -1,0 +1,39 @@
+.nav-right {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-right span {
+    margin-right: 15px;
+    font-size: 14px;
+    color: #ffffff;
+    text-transform: capitalize;
+}
+
+.svg {
+    width: 24px;
+    height: 24px;
+    fill: #999;
+}
+
+.avatar-img {
+    width: 32px;
+    border-radius: 4px;
+    height: 32px;
+    vertical-align: middle;
+}
+
+.nav-right-btn {
+    border: none;
+    background-color: transparent;
+}
+
+.search-btn {
+    padding: 1px 6px;
+}
+
+.bell-btn {
+    margin: 4.2px 0 0;
+    padding: 2px 6px 3px;
+}

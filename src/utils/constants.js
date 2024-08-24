@@ -1,0 +1,5 @@
+export const BASE_URL = 'https://api.themoviedb.org/3'
+export const ACCESS_TOKEN =  'eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIxZWEzYWE3MTVhYzNkYTkzOTFlM2NkYWFkZDg1OWI4NiIsIm5iZiI6MTcyNDQ4MTk3NS44Nzg4NTMsInN1YiI6IjY2YzcxMTQxOGMwNTM0YWU4MTUxYjY4MCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.ml3D23nWRGwkic-Z-oZXxaz9tq7xJPxeKUkWbPEx3UA'
+export const TRENDING = '/trending/movie/day'
+export const IMAGE_URL = 'https://image.tmdb.org/t/p/original'
+export const CARD_IMAGE = '/movie/popular'
