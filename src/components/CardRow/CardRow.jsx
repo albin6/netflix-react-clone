@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
-import "./Body.css";
+import "./CardRow.css";
 import axiosInstance from "../../axios-config";
 import { BASE_URL, CARD_IMAGE, IMAGE_URL } from "../../utils/constants";
 
-const Body = () => {
+const CardRow = () => {
   const [cards, setCards] = useState([]);
 
   useEffect(() => {
@@ -32,4 +32,4 @@ const Body = () => {
   );
 };
 
-export default Body;
+export default CardRow;
