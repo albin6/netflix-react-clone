@@ -41,15 +41,32 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  cursor: pointer;
+}
+
+.poster:hover {
+  transform: scale(1.1);
 }
 
 .card {
-  min-width: 250px;
-  height: 150px;
+  min-width: 450px;
+  height: 270px;
   border-radius: 5px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  
   flex-shrink: 0;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+
+.yt-video span {
+  position: absolute;
+  background-color: antiquewhite;
+  right: 0;
 }

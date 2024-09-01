@@ -18,6 +18,9 @@ const App = () => {
       <Banner />
       <CardRow title="Originals" url={ORIGINALS} />
       <CardRow title="Action" url={ACTION} isPoster />
+      <CardRow title="Romance" url={ROMANCE} />
+      <CardRow title="Horror" url={HORROR} />
+      <CardRow title="Comedy" url={COMEDY} />
     </div>
   );
 };
