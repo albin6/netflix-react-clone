@@ -31,7 +31,7 @@ const CardRow = (props) => {
     width: '100%',
     playerVars: {
       // https://developers.google.com/youtube/player_parameters
-      autoplay: 0,
+      autoplay: 1,
     },
   };
 
@@ -40,7 +40,7 @@ const CardRow = (props) => {
     try {
       axiosInstance.get(`/movie/${id}/videos?api_key=${API_KEY}&language=en-US`).then(response => {
         console.log('axios',movieId)
-        if (movieId === null && response.data.results.length !== 0) {
+        if (response.data.results.length !== 0) {
           setMovieId(response.data.results[0])
         } else {
           console.log('array empty')
